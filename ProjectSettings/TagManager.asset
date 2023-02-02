@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Plain River
+    uniqueID: 3795855775
+    locked: 0
+  - name: Mountains
+    uniqueID: 3693908999
+    locked: 0
+  - name: Settlement
+    uniqueID: 4207571393
+    locked: 0
+  - name: Forest
+    uniqueID: 2411490559
+    locked: 0
+  - name: People
+    uniqueID: 2741965755
+    locked: 0
+  - name: Fog
+    uniqueID: 3018415079
+    locked: 0
