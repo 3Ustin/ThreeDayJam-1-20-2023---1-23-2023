@@ -20,7 +20,7 @@ public class TimeTracker : MonoBehaviour
     {
         timeTrackerValue = 0;
         MoveTimeTracker = false;
-        AvalancheSpeed = 5;
+        AvalancheSpeed = 2;
         timeTracker0Renderer = timeTracker0.GetComponent<SpriteRenderer>();
         timeTracker1Renderer = timeTracker1.GetComponent<SpriteRenderer>();
         switchSpriteOpacity(timeTracker1Renderer);

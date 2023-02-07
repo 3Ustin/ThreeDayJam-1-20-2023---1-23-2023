@@ -123,11 +123,16 @@ public class GridController : MonoBehaviour
                 ((mouse0Highlight == Town || mouse0Highlight ==TownPlus || mouse0Highlight == TownPlusPlus) && mouseDown0TileList.Count <=3) ||
                 ((mouse0Highlight == Kingdom || mouse0Highlight == KingdomPlus || mouse0Highlight == KingdomPlusPlus) && mouseDown0TileList.Count <=5)
             ){
-                if(getTile()[0] == plain && getTile() != null && mouseDown0TileList.Count != 0 && getTile()[3] != forest4){
-                        if(!mouseDown0TileList.Contains(getTileLocation())){
-                            mouseDown0TileList.AddLast(getTileLocation());
-                        }
-                        Background.SetTile(mouseDown0TileList.Last.Value, plainHover);
+                if(getTile()[3] != forest4){
+                    if(getTile()[0] == plain && getTile() != null && mouseDown0TileList.Count != 0 && getTile()[3] != forest4){
+                            if(!mouseDown0TileList.Contains(getTileLocation())){
+                                mouseDown0TileList.AddLast(getTileLocation());
+                            }
+                            Background.SetTile(mouseDown0TileList.Last.Value, plainHover);
+                    }
+                }
+                else{
+                    mouseDown0 = false;
                 }
             }
         }
